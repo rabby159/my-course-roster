@@ -1,8 +1,11 @@
+/* eslint-disable react/prop-types */
 
-const Cart = () => {
+const Cart = ({cart}) => {
     return (
-        <div>
-            
+        <div className="pl-5">
+
+            <li className="">{cart.title}</li>
+
         </div>
     );
 };

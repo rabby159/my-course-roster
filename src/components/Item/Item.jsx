@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-const Item = ({item}) => {
+const Item = ({item, handleAddItems}) => {
     const {title, cover, description, price, time} = item;
     return (
         <div className="m-1 md:m-0">
@@ -20,7 +20,7 @@ const Item = ({item}) => {
                     </div>
                 </div>
                 <div className="mt-5">
-                <button className="w-full btn btn-primary">Select</button>
+                <button className="w-full btn btn-primary" onClick={()=> handleAddItems(item)}>Select</button>
                 </div>
             </div>
             </div>
