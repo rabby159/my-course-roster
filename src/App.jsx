@@ -31,7 +31,11 @@ function App() {
       
       });
 
-      const remaining = 20 - timeCount;
+     if(timeCount < 0){
+      toast.error('Remaining hour should not less 0')
+     }
+       const remaining = 20 - timeCount;
+ 
 
       // const total = totalPrice + priceCount;
 
