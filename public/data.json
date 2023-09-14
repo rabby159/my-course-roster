@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co/j829yq1/Rectangle-2-2.png",
+    "title": "Introduction to C Programming",
+    "description": "C programming is a versatile, procedural language used for software development, known for its efficiency and low-level control over hardware.",
+    "time": 1,
+    "price": 3000
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co/ygcZsv2/Rectangle-2-3.png",
+    "title": "Introduction to Algorithms",
+    "description": "Algorithms are step-by-step procedures for solving problems efficiently, fundamental in computer science, used in software development, data analysis, and more.",
+    "time": 2,
+    "price": 2500
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co/bzFPxrD/Rectangle-2-4.png",
+    "title": "Introduction to C++ for DSA",
+    "description": "C++ is a versatile programming language integral in data structures and algorithms (DSA), combining object-oriented and procedural features for efficient coding.",
+    "time": 8,
+    "price": 2800
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co/zJnYx7X/Rectangle-3.png",
+    "title": "Basic Data Structures",
+    "description": "Basic data structures are fundamental building blocks in computer science, including arrays, linked lists, stacks, and queues, essential for organizing and manipulating data.",
+    "time": 5,
+    "price": 3000
+  },
+  {
+    "id": 5,
+    "cover": "https://i.ibb.co/DQyXf3k/Rectangle-2.png",
+    "title": "Introduction to OOP Python",
+    "description": "Object-Oriented Programming (OOP) in Python emphasizes objects, encapsulation, inheritance, and polymorphism, making it a versatile language for software design and development.",
+    "time": 5,
+    "price": 3500
+  },
+  {
+    "id": 6,
+    "cover": "https://i.ibb.co/YQt9k9h/Rectangle-2-5.png",
+    "title": "Software Engineering",
+    "description": "Software engineering is a systematic approach to design, develop, test, maintain, and manage software systems, ensuring quality, reliability, and efficiency.",
+    "time": 2,
+    "price": 2500
+  },
+  {
+    "id": 7,
+    "cover": "https://i.ibb.co/rFrg8mM/Rectangle-3-1.png",
+    "title": "AWS, Cloud Computing",
+    "description": "Amazon Web Services (AWS) is a leading cloud computing platform providing scalable, on-demand computing resources, storage, and services globally.",
+    "time": 2,
+    "price": 2500
+  },
+  {
+    "id": 8,
+    "cover": "https://i.ibb.co/NCnngB6/Rectangle-2-1.png",
+    "title": "Database (MySQL)",
+    "description": "MySQL is a popular open-source relational database management system (RDBMS) known for its speed, reliability, and wide application in web development.",
+    "time": 3,
+    "price": 3000
+  },
+  {
+    "id": 9,
+    "cover": "https://i.ibb.co/3SF41F1/Rectangle-2-6.png",
+    "title": "Problem-Solving Part",
+    "description": "Problem-solving is a cognitive process involving analyzing, devising strategies, and implementing solutions to overcome challenges, essential in various fields.",
+    "time": 5,
+    "price": 2700
+  }
+]
