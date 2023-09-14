@@ -10,7 +10,7 @@ function App() {
 
       <h1 className='text-center text-4xl font-bold mt-6'>Course Registration</h1>
     
-    <div className='flex justify-between container mx-auto my-10'>
+    <div className='md:flex  justify-between container mx-auto my-10 gap-8'>
       <Items></Items>
       <Carts></Carts>
     </div>
