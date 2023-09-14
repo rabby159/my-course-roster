@@ -3,8 +3,8 @@ import { useState } from 'react'
 import './App.css'
 import Carts from './components/Carts/Carts'
 import Items from './components/Items/Items'
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
@@ -21,8 +21,8 @@ function App() {
     const isExist = addItems.find(select => select.id === item.id);
 
     if(isExist){
-      // toast.error('Already added this course');
-      alert('Already added this course');
+      toast.error('Already added this course');
+      
     }
     else{
       addItems.map((credit) => {
@@ -36,8 +36,7 @@ function App() {
       // const total = totalPrice + priceCount;
 
       if(timeCount > 20){
-        // return toast.error("Reach your maximum credit")
-        return alert("Reach your maximum credit")
+        return toast.error("Reach your maximum credit")
       }
       else{
 
@@ -63,7 +62,7 @@ function App() {
       <Items handleAddItems={handleAddItems}></Items>
       <Carts addItems={addItems} creditHour={creditHour} remainingHour={remainingHour} totalPrice={totalPrice}></Carts>
     </div>
-    {/* <ToastContainer></ToastContainer> */}
+    <ToastContainer></ToastContainer>
     </>
   )
 }
