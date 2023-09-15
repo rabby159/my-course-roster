@@ -3,8 +3,9 @@
 const Cart = ({cart}) => {
     return (
         <div className="pl-5">
-
-            <li className="">{cart.title}</li>
+            <ol className="">
+                <li className="">{cart.id}. {cart.title}</li>
+            </ol>
 
         </div>
     );
