@@ -3,10 +3,7 @@
 const Cart = ({cart}) => {
     return (
         <div className="pl-5">
-            <ol className="">
-                <li className="">{cart.id}. {cart.title}</li>
-            </ol>
-
+                <li className="">{cart.title}</li>
         </div>
     );
 };
